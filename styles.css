@@ -86,6 +86,7 @@ header {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  font-family: "Luminari";
 }
 
 /* Remove margins for header text */
@@ -149,7 +150,7 @@ h1 {
       var(--header-scale) * var(--header-scale)
   );
   margin-top: calc(var(--line-height) * 1.5rem);
-  color: gold
+  color: gold;
 }
 
 h2 {
