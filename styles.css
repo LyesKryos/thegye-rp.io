@@ -1,0 +1,21 @@
+/* 1. Define CSS variables with default (light mode) values */
+:root {
+  --color-text: #000000;
+  --color-background: #ffffff;
+}
+
+/* 2. Re-assign variables for dark mode within the media query */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #ffffff;
+    --color-background: #000000;
+  }
+}
+
+/* 3. Apply variables to the design */
+body {
+  color: var(--color-text);
+  background-color: var(--color-background);
+  /* Optional: add smooth transitions */
+  transition: background-color 0.5s, color 0.5s;
+}
