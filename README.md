@@ -1,1 +1,1 @@
-# thegye-rp.io
+# Thegye Roleplay Community
