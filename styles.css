@@ -29,6 +29,13 @@
   --disabled: #efefef;
 }
 
+/* Luminari */
+@font-face {
+    font-family: 'Luminari'; /* Name the font whatever you like */
+    src: url('fonts/Luminari W02 Regular.woff.') format('woff2'),
+         url('fonts/Luminari W02 Regular.woff') format('woff'); /* Include multiple formats for broad browser support */
+}
+
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
