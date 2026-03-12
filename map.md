@@ -1,10 +1,4 @@
-layout: page
-title: "Map"
-permalink: /about/map
+# Map
 
-<!DOCTYPE html>
-<html>
-  <body>
-    <p>Find the map below:</p>
-  </body>
-</html>
+Here you can find the **map**:
+
