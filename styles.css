@@ -19,3 +19,7 @@ body {
   /* Optional: add smooth transitions */
   transition: background-color 0.5s, color 0.5s;
 }
+
+h1 {
+  color: gold
+}
