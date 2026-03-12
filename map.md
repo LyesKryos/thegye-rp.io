@@ -2,4 +2,9 @@ layout: page
 title: "Map"
 permalink: /about/map
 
-"Here find the map:"
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Find the map below:</p>
+  </body>
+</html>
