@@ -96,6 +96,19 @@ header {
   font-family: "Luminari";
 }
 
+header a,
+header a:link,
+header a:visited {
+  color: gold; /* Set to your desired color (e.g., black) */
+  text-decoration: none; /* Removes the underline */
+}
+
+/* Optional: Add hover/active styles as needed */
+header a:hover,
+header a:active {
+  text-decoration: underline; /* Example hover decoration */
+}
+
 /* Remove margins for header text */
 header h1,
 header p {
@@ -167,6 +180,7 @@ h2 {
       var(--header-scale)
   );
   margin-top: calc(var(--line-height) * 1.5rem);
+  color: white;
 }
 
 h3 {
@@ -174,6 +188,7 @@ h3 {
     var(--base-fontsize) * var(--header-scale) * var(--header-scale)
   );
   margin-top: calc(var(--line-height) * 1.5rem);
+  color: white;
 }
 
 h4 {
