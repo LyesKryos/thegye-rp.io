@@ -558,7 +558,7 @@ pre code {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: gold;
+  color: #ffb300;
   text-decoration: none;
 }
 
