@@ -102,9 +102,18 @@ header p {
   margin: 0;
 }
 
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 1;
+}
+
 /* Add a little padding to ensure spacing is correct between content and nav */
-main {
-  padding-top: 1.5rem;
+.main {
+  flex: 1;
+  padding: 0px 10px;
+  min-width: 0; /* Prevents flex blowout */
 }
 
 /* Fix line height when title wraps */
@@ -537,12 +546,14 @@ pre code {
 
 /* The sidebar menu */
 .sidenav {
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: auto; /* Stay at the top */
-  left: auto;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  width: 160px;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-shrink: 0;
 }
 
 /* The navigation menu links */
