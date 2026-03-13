@@ -96,19 +96,6 @@ header {
   font-family: "Luminari";
 }
 
-header a,
-header a:link,
-header a:visited {
-  color: gold; /* Set to your desired color (e.g., black) */
-  text-decoration: none; /* Removes the underline */
-}
-
-/* Optional: Add hover/active styles as needed */
-header a:hover,
-header a:active {
-  text-decoration: underline; /* Example hover decoration */
-}
-
 /* Remove margins for header text */
 header h1,
 header p {
@@ -213,7 +200,20 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+header a,
+header a:link,
+header a:visited {
+  color: #ffb300; /* Set to your desired color (e.g., black) */
+  text-decoration: none; /* Removes the underline */
+}
+
+/* Optional: Add hover/active styles as needed */
+header a:hover,
+header a:active {
+  text-decoration: none; /* Example hover decoration */
 }
 
 a button,
@@ -559,6 +559,7 @@ pre code {
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: gold;
+  text-decoration: none;
 }
 
 /* Style page content */
