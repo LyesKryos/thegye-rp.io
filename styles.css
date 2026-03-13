@@ -573,3 +573,18 @@ pre code {
   .sidenav a {font-size: 18px;}
 }
 
+.enlargeable {
+    cursor: zoom-in; /* Changes cursor to indicate it's clickable */
+    transition: transform 0.25s ease; /* Smooth transition for the size change */
+}
+
+.enlarged {
+    transform: scale(2); /* Doubles the size of the image */
+    position: fixed; /* Positions the image relative to the viewport */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2); /* Centers the image */
+    z-index: 1000; /* Ensures the image is on top of other content */
+    cursor: zoom-out; /* Changes cursor to indicate it can be closed */
+}
+
